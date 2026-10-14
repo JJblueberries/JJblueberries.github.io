@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Games by Dylan Wilkins</title>
+<meta name="description" content="Dead Rush: Zombie Survival and Orbits Drop: arcade games for iPhone and iPad.">
+<style>
+  :root{--bg:#17141D;--card:#24212C;--line:#34303F;--ink:#F2EDE4;--muted:#A9A2B6;--accent:#FFC400;--green:#8FBF6A;color-scheme:dark}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:40px 16px 56px}
+  main{max-width:720px;margin:0 auto;display:grid;gap:22px}
+  .top h1{font-size:2.1rem;line-height:1.1;margin:0 0 6px}
+  .top p{margin:0;color:var(--muted)}
+  .game{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:start}
+  .game img{width:96px;height:96px;border-radius:22px;display:block}
+  .game h2{margin:0 0 4px;font-size:1.35rem;line-height:1.2}
+  .game p{margin:0 0 12px;color:var(--muted)}
+  .tag{display:inline-block;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;margin-bottom:8px}
+  .live{background:rgba(143,191,106,.16);color:var(--green)}
+  .soon{background:rgba(255,196,0,.14);color:var(--accent)}
+  .links{display:flex;flex-wrap:wrap;gap:8px}
+  .btn{display:inline-block;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:600;font-size:.95rem;border:1px solid var(--line);color:var(--ink)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#17141D}
+  .btn:hover{border-color:var(--accent)}
+  .contact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+  .contact h2{margin:0 0 6px;font-size:1.1rem;color:var(--accent)}
+  .contact p{margin:0 0 6px}
+  .mail{font-weight:700;font-size:1.1rem;user-select:all}
+  footer{color:var(--muted);font-size:.85rem}
+  @media (max-width:480px){.game{grid-template-columns:72px 1fr;gap:14px;padding:16px}.game img{width:72px;height:72px;border-radius:17px}}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <h1>Games by Dylan Wilkins</h1>
+    <p>Fast arcade games for iPhone and iPad.</p>
+  </div>
+
+  <article class="game">
+    <img src="deadrush/icon.png" alt="Dead Rush app icon">
+    <div>
+      <span class="tag live">On the App Store</span>
+      <h2>Dead Rush: Zombie Survival</h2>
+      <p>Run the city. Outgun the horde. Take down the bosses.</p>
+      <div class="links">
+        <a class="btn primary" href="https://apps.apple.com/app/id6817898267">Download</a>
+        <a class="btn" href="deadrush/">Help &amp; support</a>
+        <a class="btn" href="deadrush/privacy.html">Privacy policy</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="game">
+    <img src="icon.png" alt="Orbits Drop app icon">
+    <div>
+      <span class="tag soon">Coming soon</span>
+      <h2>Orbits Drop</h2>
+      <p>Time the drop. Chain the blasts. Stop the invasion.</p>
+      <div class="links">
+        <a class="btn" href="#orbits-help">Help &amp; support</a>
+        <a class="btn" href="privacy.html">Privacy policy</a>
+      </div>
+    </div>
+  </article>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Questions, bugs or purchase problems? Email us and include your phone model.</p>
+    <p><b>Dead Rush:</b> <span class="mail">deadrushsurvival@gmail.com</span></p>
+    <p><b>Orbits Drop:</b> <span class="mail">orbitsdropgame@gmail.com</span></p>
+  </section>
+
+  <section class="contact" id="orbits-help">
+    <h2>Orbits Drop help</h2>
+    <p><b>I bought Remove Ads but I still see ads.</b> Open the game &rarr; Settings &rarr; <i>Restore purchases</i>. The optional "Watch ad for +2 warheads" button always stays, since you choose whether to use it.</p>
+    <p><b>I got a new phone.</b> Sign in with the same Apple ID and tap <i>Restore purchases</i> in Settings.</p>
+    <p><b>The leaderboard doesn't show.</b> Sign in to Game Center in your iPhone's Settings app, then reopen the game.</p>
+    <p><b>How do I change ad privacy choices?</b> In the EU and UK: game Settings &rarr; <i>Ad privacy choices</i>. Everywhere: iPhone Settings &rarr; Privacy &amp; Security &rarr; Tracking.</p>
+  </section>
+
+  <footer>&copy; 2026 Dylan Wilkins</footer>
+</main>
+</body>
+</html>
