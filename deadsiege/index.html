@@ -3,76 +3,47 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Games by Dylan Wilkins</title>
-<meta name="description" content="Dead Rush and Dead Siege, zombie games for iPhone and iPad.">
+<title>Dead Siege Support</title>
 <style>
-  :root{--bg:#17141D;--card:#24212C;--line:#34303F;--ink:#F2EDE4;--muted:#A9A2B6;--accent:#FFC400;--green:#8FBF6A;color-scheme:dark}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:40px 16px 56px}
-  main{max-width:720px;margin:0 auto;display:grid;gap:22px}
-  .top h1{font-size:2.1rem;line-height:1.1;margin:0 0 6px}
-  .top p{margin:0;color:var(--muted)}
-  .game{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:start}
-  .game img{width:96px;height:96px;border-radius:22px;display:block}
-  .game h2{margin:0 0 4px;font-size:1.35rem;line-height:1.2}
-  .game p{margin:0 0 12px;color:var(--muted)}
-  .tag{display:inline-block;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;margin-bottom:8px}
-  .live{background:rgba(143,191,106,.16);color:var(--green)}
-  .soon{background:rgba(255,196,0,.14);color:var(--accent)}
-  .links{display:flex;flex-wrap:wrap;gap:8px}
-  .btn{display:inline-block;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:600;font-size:.95rem;border:1px solid var(--line);color:var(--ink)}
-  .btn.primary{background:var(--accent);border-color:var(--accent);color:#17141D}
-  .btn:hover{border-color:var(--accent)}
-  .contact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
-  .contact h2{margin:0 0 6px;font-size:1.1rem;color:var(--accent)}
-  .contact p{margin:0 0 6px}
-  .mail{font-weight:700;font-size:1.1rem;user-select:all}
-  footer{color:var(--muted);font-size:.85rem}
-  @media (max-width:480px){.game{grid-template-columns:72px 1fr;gap:14px;padding:16px}.game img{width:72px;height:72px;border-radius:17px}}
+  :root{--bg:#2B2A33;--card:#3A3844;--ink:#F2EDE4;--muted:#C9C0B4;--accent:#FFC400;--soul:#7CF5D0;color-scheme:dark}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:40px 16px}
+  main{max-width:680px;margin:0 auto;display:grid;gap:22px}
+  header{display:flex;gap:18px;align-items:center}
+  header img{width:88px;height:88px;border-radius:20px}
+  h1{font-size:2rem;margin:0;line-height:1.1;letter-spacing:.02em}
+  h1 span{color:var(--accent)}
+  h2{font-size:1.1rem;color:var(--accent);margin:0 0 6px}
+  section{background:var(--card);padding:18px 20px;border-radius:12px}
+  p{margin:0 0 8px}
+  .muted{color:var(--muted);font-size:.9rem}
+  a{color:var(--soul)}
+  .mail{font-size:1.15rem;font-weight:700;user-select:all}
 </style>
 </head>
 <body>
 <main>
-  <div class="top">
-    <h1>Games by Dylan Wilkins</h1>
-    <p>Zombie games for iPhone and iPad.</p>
-  </div>
+  <header>
+    <img src="icon.png?v=2" alt="Dead Siege app icon">
+    <div><h1>DEAD <span>SIEGE</span></h1><p class="muted">Build your base. Hold the line.</p></div>
+  </header>
 
-  <article class="game">
-    <img src="deadrush/icon.png" alt="Dead Rush app icon">
-    <div>
-      <span class="tag live">On the App Store</span>
-      <h2>Dead Rush: Zombie Survival</h2>
-      <p>Run the city. Outgun the horde. Take down the bosses.</p>
-      <div class="links">
-        <a class="btn primary" href="https://apps.apple.com/app/id6817898267">Download</a>
-        <a class="btn" href="deadrush/">Help &amp; support</a>
-        <a class="btn" href="deadrush/privacy.html">Privacy policy</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="game">
-    <img src="deadsiege/icon.png?v=2" alt="Dead Siege app icon">
-    <div>
-      <span class="tag soon">Coming soon</span>
-      <h2>Dead Siege: Zombie Defense</h2>
-      <p>Build walls, towers, mortars and gold mines. Hold your base against endless zombie waves.</p>
-      <div class="links">
-        <a class="btn" href="deadsiege/">Help &amp; support</a>
-        <a class="btn" href="deadsiege/privacy.html">Privacy policy</a>
-      </div>
-    </div>
-  </article>
-
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Questions, bugs or purchase problems? Email us and include your phone model.</p>
-    <p><b>Dead Rush:</b> <span class="mail">deadrushsurvival@gmail.com</span></p>
-    <p><b>Dead Siege:</b> <span class="mail">deadsiegegame@gmail.com</span></p>
+  <section>
+    <h2>Contact support</h2>
+    <p>Questions, bugs or purchase problems? Email:</p>
+    <p class="mail">deadsiegegame@gmail.com</p>
+    <p class="muted">Put "Dead Siege" in the subject, include your phone model and what happened, and we'll get back to you.</p>
   </section>
 
-  <footer>&copy; 2026 Dylan Wilkins</footer>
+  <section>
+    <h2>Common questions</h2>
+    <p><b>I bought Remove Ads but still see ads between waves.</b> Open the game menu (☰) and tap <i>Restore purchases</i>. Reward ads you choose to watch (double gold, Overdrive, bonus chest) always stay available.</p>
+    <p><b>I got a new phone.</b> Sign in with the same Apple ID, open the menu and tap <i>Restore purchases</i>. Your base is saved on the device, so a new phone starts a new base.</p>
+    <p><b>Did I lose gold while the app was closed?</b> No. Gold mines keep digging for up to 8 hours. Collect it when you come back.</p>
+    <p><b>The leaderboard doesn't show.</b> Sign in to Game Center in your iPhone's Settings app, then reopen the game.</p>
+    <p><b>How do I change ad privacy choices?</b> In the EU and UK: game menu → <i>Ad privacy choices</i>. Everywhere: iPhone Settings → Privacy &amp; Security → Tracking.</p>
+  </section>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
 </main>
 </body>
 </html>
